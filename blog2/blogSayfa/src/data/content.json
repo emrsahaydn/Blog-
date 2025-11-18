@@ -1,0 +1,199 @@
+{
+  "navLinks": [
+    {
+      "id": "skills",
+      "href": "#skills",
+      "label": { "tr": "Yetenekler", "en": "Skills" }
+    },
+    {
+      "id": "projects",
+      "href": "#projects",
+      "label": { "tr": "Projeler", "en": "Projects" }
+    },
+    {
+      "id": "contact",
+      "href": "#contact",
+      "label": { "tr": "İletişim", "en": "Hire me" }
+    }
+  ],
+  "hero": {
+    "badge": { "tr": "Emir Şahin Aydın", "en": "Emir Şahin Aydın" },
+    "titleLines": {
+      "tr": ["Yaratıcı düşünür", "Minimalizm aşığı"],
+      "en": ["Creative thinker", "Minimalism lover"]
+    },
+    "description": {
+      "tr": "Merhaba, ben Emir Şahin Aydın. Ürün deneyimini merkeze alan, ölçeklenebilir arayüzler geliştiren bir full-stack geliştiricisiyim. Sağlam komponent mimarileri ve sezgisel deneyimler oluşturuyorum.",
+      "en": "Hi, I’m Emir Şahin Aydın. I craft scalable, experience-first frontends as a full-stack developer. Let’s build solid UI systems with delightful interactions."
+    },
+    "buttons": [
+      {
+        "variant": "primary",
+        "href": "#contact",
+        "label": { "tr": "Beni işe al", "en": "Hire me" }
+      },
+      {
+        "variant": "outline",
+        "href": "https://github.com/emrsahaydn",
+        "label": "Github"
+      },
+      {
+        "variant": "outline",
+        "href": "https://www.linkedin.com/in/emirsahinayd%C4%B1n",
+        "label": "Linkedin"
+      }
+    ],
+    "note": {
+      "tr": "Sağlam ve ölçeklenebilir ürünler için el sıkışalım.",
+      "en": "Let’s shake hands for solid, scalable products."
+    },
+    "image": "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=900&q=80"
+  },
+  "skillsIntro": {
+    "title": { "tr": "Yetenekler", "en": "Skills" },
+    "description": {
+      "tr": "Her ürün ekibine taşıdığım temel teknik yetkinlikler.",
+      "en": "Core technical capabilities I bring to every product team."
+    }
+  },
+  "skills": [
+    {
+      "id": "js",
+      "title": { "tr": "Java Script", "en": "Java Script" },
+      "description": {
+        "tr": "Komponent odaklı mimariler, tip güvenliği ve test pratiği.",
+        "en": "Component-driven architectures with strong typing and testing."
+      }
+    },
+    {
+      "id": "react",
+      "title": { "tr": "React.Js", "en": "React.Js" },
+      "description": {
+        "tr": "Hook tabanlı durum yönetimi, context izolasyonu ve performans optimizasyonu.",
+        "en": "Hook-based state, isolated contexts, and performance tuning."
+      }
+    },
+    {
+      "id": "node",
+      "title": { "tr": "Node.Js", "en": "Node.Js" },
+      "description": {
+        "tr": "API tasarımı, güvenli entegrasyonlar ve altyapı otomasyonu.",
+        "en": "API design, secure integrations, and infrastructure automation."
+      }
+    }
+  ],
+  "profile": {
+    "title": { "tr": "Profil", "en": "Profile" },
+    "aboutTitle": { "tr": "Hakkımda", "en": "About Me" },
+    "aboutText": {
+      "tr": "Ürün ekipleriyle yakın çalışarak, tasarım sistemlerini kod tabanına taşıyorum. Kullanıcı içgörülerini analitiklerle doğrulayıp sade, sürdürülebilir deneyimler oluşturuyorum.",
+      "en": "I partner with product teams to translate design systems into stable code. Insights plus analytics guide me to deliver calm, sustainable experiences."
+    },
+    "aboutSubText": {
+      "tr": "Şeffaf iletişim, test kültürü ve ölçülebilir başarı metriklerine inanıyorum.",
+      "en": "Transparent communication, testing culture, and measurable impact."
+    },
+    "details": [
+      {
+        "label": { "tr": "Doğum tarihi", "en": "Birth date" },
+        "value": "15.09.2002"
+      },
+      {
+        "label": { "tr": "İkamet Şehri", "en": "City" },
+        "value": { "tr": "Trabzon", "en": "Trabzon" }
+      },
+      {
+        "label": { "tr": "Eğitim Durumu", "en": "Education" },
+        "value": { "tr": "Süleyman Demirel Ünv. Bilgisayar Mühendisliği", "en": "Süleyman Demirel Univ. Computer Engineering" }
+      },
+      {
+        "label": { "tr": "Lisans", "en": "Degree" },
+        "value": "2025"
+      },
+      {
+        "label": { "tr": "Tercih Rol", "en": "Preferred Role" },
+        "value": { "tr": "Frontend, UI", "en": "Frontend, UI" }
+      }
+    ]
+  },
+  "projectsIntro": {
+    "title": { "tr": "Projeler", "en": "Projects" },
+    "description": {
+      "tr": "Minimal, özelleştirilebilir ve üretime hazır ürün örnekleri.",
+      "en": "Minimal, customizable, production-ready work samples."
+    }
+  },
+  "projects": [
+    {
+      "id": "workintech",
+      "title": "Workintech",
+      "description": {
+        "tr": "Kullanıcıların çerez tercihlerini yöneten minimalist ve özelleştirilebilir bir eklenti.",
+        "en": "A customizable cookie preference widget with minimal UI."
+      },
+      "image": "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?auto=format&fit=crop&w=800&q=80",
+      "github": "https://github.com/almilasu/workintech",
+      "live": "https://workintech.app",
+      "tags": ["react", "redux", "axios"]
+    },
+    {
+      "id": "random-jokes",
+      "title": "Random Jokes",
+      "description": {
+        "tr": "Vanilla JS, SCSS ve Parcel ile geliştirilen mizah odaklı bir SPA.",
+        "en": "A humor-centric SPA built with vanilla JS, SCSS, and Parcel."
+      },
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80",
+      "github": "https://github.com/almilasu/random-jokes",
+      "live": "https://random-jokes.app",
+      "tags": ["react", "redux", "axios"]
+    },
+    {
+      "id": "journey",
+      "title": "Journey",
+      "description": {
+        "tr": "Ekiplerin kampanya sayfalarını dakikalar içinde hazırlamasını sağlayan kit.",
+        "en": "A landing kit that helps teams ship campaigns in minutes."
+      },
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+      "github": "https://github.com/almilasu/journey",
+      "live": "https://journey.studio",
+      "tags": ["react", "redux", "axios"]
+    }
+  ],
+  "contact": {
+    "title": {
+      "tr": "Bir sonraki ürününüzde birlikte çalışalım.",
+      "en": "Let’s work together on your next product."
+    },
+    "description": {
+      "tr": "Kullanıcı odaklı tasarım sistemleri ve performanslı frontend çözümleri için ulaşın.",
+      "en": "Reach out for user-focused design systems and performant frontends."
+    },
+    "email": "emirsahinaydin@hotmail.com",
+    "socials": [
+      { "label": "Portfolio", "href": "https://emirsahinaydin.com" },
+      { "label": "Github", "href": "https://github.com/emrsahaydn" },
+      { "label": "Linkedin", "href": "https://www.linkedin.com/in/emirsahinayd%C4%B1n" }
+    ],
+    "apiTester": {
+      "title": {
+        "tr": "API bağlantısını test et",
+        "en": "Test the API link"
+      },
+      "button": {
+        "tr": "İsteği Gönder",
+        "en": "Send request"
+      },
+      "success": {
+        "tr": "API isteği başarıyla tamamlandı.",
+        "en": "API request completed successfully."
+      },
+      "error": {
+        "tr": "Servisten yanıt alınamadı.",
+        "en": "Could not receive a response."
+      }
+    }
+  }
+}
+
