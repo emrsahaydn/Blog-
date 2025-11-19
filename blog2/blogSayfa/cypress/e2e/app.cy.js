@@ -17,7 +17,7 @@ describe('Portfolyo açılış deneyimi', () => {
   })
 
   it('Dark mode anahtarı görünür ve çalışıyor', () => {
-    cy.contains('span', 'Dark Mode')
+    cy.contains('span', 'DARK MODE')
       .parent()
       .find('button')
       .as('darkToggle')

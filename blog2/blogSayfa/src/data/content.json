@@ -44,8 +44,8 @@
       }
     ],
     "note": {
-      "tr": "Sağlam ve ölçeklenebilir ürünler için el sıkışalım.",
-      "en": "Let’s shake hands for solid, scalable products."
+      "tr": "",
+      "en": ""
     },
     "image": "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=900&q=80"
   },
@@ -90,8 +90,8 @@
       "en": "I partner with product teams to translate design systems into stable code. Insights plus analytics guide me to deliver calm, sustainable experiences."
     },
     "aboutSubText": {
-      "tr": "Şeffaf iletişim, test kültürü ve ölçülebilir başarı metriklerine inanıyorum.",
-      "en": "Transparent communication, testing culture, and measurable impact."
+      "tr": "",
+      "en": ""
     },
     "details": [
       {
@@ -119,8 +119,8 @@
   "projectsIntro": {
     "title": { "tr": "Projeler", "en": "Projects" },
     "description": {
-      "tr": "Minimal, özelleştirilebilir ve üretime hazır ürün örnekleri.",
-      "en": "Minimal, customizable, production-ready work samples."
+      "tr": "",
+      "en": ""
     }
   },
   "projects": [
@@ -132,7 +132,7 @@
         "en": "A customizable cookie preference widget with minimal UI."
       },
       "image": "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?auto=format&fit=crop&w=800&q=80",
-      "github": "https://github.com/almilasu/workintech",
+      "github": "https://github.com/emrsahaydn",
       "live": "https://workintech.app",
       "tags": ["react", "redux", "axios"]
     },
@@ -144,7 +144,7 @@
         "en": "A humor-centric SPA built with vanilla JS, SCSS, and Parcel."
       },
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80",
-      "github": "https://github.com/almilasu/random-jokes",
+      "github": "https://github.com/emrsahaydn",
       "live": "https://random-jokes.app",
       "tags": ["react", "redux", "axios"]
     },
@@ -156,7 +156,7 @@
         "en": "A landing kit that helps teams ship campaigns in minutes."
       },
       "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
-      "github": "https://github.com/almilasu/journey",
+      "github": "https://github.com/emrsahaydn",
       "live": "https://journey.studio",
       "tags": ["react", "redux", "axios"]
     }

@@ -5,15 +5,15 @@ const Contact = () => {
   const { contact } = content
 
   return (
-    <section id="contact" className="bg-white">
+    <section id="contact" className="py-12 dark:bg-[#252128]">
       <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
         <div className="flex-1">
-          <h2 className="text-3xl font-semibold text-ink dark:text-white">
+          <h2 className="text-3xl font-semibold text-ink dark:text-[#AEBCCF]">
             {contact.title[language]}
           </h2>
           <a
             href={`mailto:${contact.email}`}
-            className="mt-4 inline-flex items-center gap-2 text-lg font-semibold text-[#ff6b35] underline"
+            className="mt-4 inline-flex items-center gap-2 text-lg font-semibold text-[#ff6b35] underline dark:text-[#BAB2E7]"
           >
             <span>✉️</span>
             {contact.email}

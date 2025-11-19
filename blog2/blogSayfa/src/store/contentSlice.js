@@ -1,6 +1,15 @@
 import { createSlice } from '@reduxjs/toolkit'
 import siteContent from '../data/content.json'
 
+const getInitialLanguage = () => {
+  if (typeof window === 'undefined') return 'tr'
+  try {
+    return window.localStorage.getItem('preferredLanguage') || 'tr'
+  } catch {
+    return 'tr'
+  }
+}
+
 const localizeValue = (value, language) => {
   if (value && typeof value === 'object' && !Array.isArray(value)) {
     if (Object.prototype.hasOwnProperty.call(value, language)) {
@@ -86,7 +95,7 @@ const buildLocalizedContent = (language) => {
   }
 }
 
-const initialLanguage = 'tr'
+const initialLanguage = getInitialLanguage()
 
 const contentSlice = createSlice({
   name: 'content',
